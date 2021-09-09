@@ -1,0 +1,42 @@
+{
+  "name": "poet",
+  "description": "quick and easy blog module",
+  "version": "3.0.0",
+  "main": "lib/poet",
+  "dependencies": {
+    "front-matter": ">= 0.1.x",
+    "fs-then": "0.1.x",
+    "json-front-matter": ">= 0.1.4",
+    "jstransformer": "^1.0.0",
+    "marked": ">=0.6.2",
+    "pug": "^3.0.2",
+    "underscore": "^1.13.1",
+    "when": "2.1.x"
+  },
+  "devDependencies": {
+    "chai": ">= 1.1.1",
+    "express": ">= 4.5.0",
+    "mocha": "^9.0.2",
+    "supertest": ">= 0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DeepRolling/poet.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --exit --reporter spec --ui bdd"
+  },
+  "keywords": [
+    "blog",
+    "blogging",
+    "markdown",
+    "pug",
+    "posts",
+    "writing"
+  ],
+  "author": {
+    "name": "Jordan Santell",
+    "url": "http://github.com/jsantell"
+  },
+  "license": "MIT"
+}
